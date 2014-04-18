@@ -3,6 +3,7 @@ function color_matrix = choose_random_colors(n_colors)
 % distinct colors
 
 % TODO: see if there is a built-in function that can do this
+% Leah's line
 
 color_matrix = colormap();
 
