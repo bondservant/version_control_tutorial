@@ -1,5 +1,5 @@
 % Tests for choose_random_colors.m
-
+% test for commiting changes
 n_colors = 3;
 
 color_mat = choose_random_colors(n_colors);
