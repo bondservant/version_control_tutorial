@@ -5,7 +5,7 @@ n_points = length(points_x);
 start_points = randsample(1:n_points, n_centroids);
 
 centroids_x = points_x(start_points);
-centroids_y = points_y(start_points);
+centroids_y = points_y(start_points)
 
 % TODO: change for-loops to matrix operations
 
