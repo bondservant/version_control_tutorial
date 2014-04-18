@@ -5,6 +5,10 @@ points_y = [0 0.1 -0.1 1 1.1 0.9];
 n_clusters = 2;
 max_iterations = 100;
 
+% Playing with github
+x = 1:100;
+plot(x, sin(x))
+
 [centroids_x, centroids_y, cluster_assignment] = kmeans(points_x, points_y, ...
     n_clusters, max_iterations);
 
